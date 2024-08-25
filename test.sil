@@ -1,0 +1,31 @@
+5 integer x, y
+10 println "pop and push test"
+15 integer b
+18 let b = 23
+20 push 50*3 + b
+30 integer a
+40 pop a
+50 print "a=" 
+51 PRINTLN A
+60 push a
+70 pop b
+80 println "b="
+81 println b
+90 push 5
+100 push 7
+110 gosub 200
+111 push 2
+112 push 4
+113 gosub 200
+120 end
+200 println "in sub"
+210 pop y
+220 pop x
+221 print ">y val is "
+222 println y
+223 print ">x val is "
+224 println x
+230 println "x+y="
+231 println x+y
+240 ret
+250 end
